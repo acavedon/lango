@@ -5,6 +5,8 @@ gem 'sqlite3'
 gem 'devise', '1.1.4'
 gem 'mail'
 gem 'haml-rails'
+gem 'coffee-filter'
+
 
 # Asset template engines
 gem 'sass-rails', "~> 3.1.0.rc"

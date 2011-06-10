@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Title:
+  = @note.title
+%p
+  %b Body:
+  = @note.body
+
+= link_to 'Edit', edit_admin_note_path(@note)
+\|
+= link_to 'Back', admin_notes_path
