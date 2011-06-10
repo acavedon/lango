@@ -1,6 +1,6 @@
-%h1 Listing notes
+%h2 Listing notes
 
-%table
+%table{:class => 'index_list'}
   %tr
     %th Title
     %th Body
@@ -16,4 +16,5 @@
 
 %br
 
-= link_to 'New Note', new_admin_note_path
+.actions
+  = link_to 'New Note', new_admin_note_path

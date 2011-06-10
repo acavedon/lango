@@ -1,12 +1,12 @@
 %p#notice= notice
 
-%p
+.field
   %b Title:
   = @note.title
-%p
+.field
   %b Body:
   = @note.body
 
-= link_to 'Edit', edit_admin_note_path(@note)
-\|
-= link_to 'Back', admin_notes_path
+.actions
+  = link_to 'Edit', edit_admin_note_path(@note)
+  = link_to 'Back', admin_notes_path

@@ -1,8 +1,16 @@
 %html
   %head
     %title Lango Administration
-    = stylesheet_link_tag    "application"
+    = stylesheet_link_tag    "administration"
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body
-    = yield
+    #container
+      .header
+      .menu
+        %ul{:id => 'menu'}
+          %li
+            =link_to 'Notes', admin_notes_path
+      
+      .content
+      = yield

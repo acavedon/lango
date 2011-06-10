@@ -1,7 +1,143 @@
-// Place all the styles related to the administration controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 body.administration {
   // Place scoped styles here
+}
+
+body {
+  font-family:"Lucida Grande",Georgia,Cambria,"Times New Roman",Times,serif;
+  background:#eaeaea;
+}
+
+h2 {
+  font-size:15px;
+  color:#ccc;
+}
+
+.header {
+  height:70px;
+  margin-bottom:30px;
+  border:1px solid #ccc;
+}
+
+.menu ul {
+  margin:36px 0px 30px 15px;
+  background:#FFFFFF;
+  width:150px;
+  padding:0;
+  list-style:none;
+}
+
+.menu ul li a {
+  text-decoration:none;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.menu ul li a:hover {
+  color:#666;
+}
+
+#notice {
+  width:500px;
+  border:1px solid #ccc;
+  background:#FFF1A8;
+  padding:10px;
+  margin-bottom:20px;
+}
+
+#container {
+  width:800px;
+  border:2px solid #ccc;
+  margin:0px auto;
+  padding:15px;
+  background:#fff;
+}
+
+#error_explanation {
+  width:500px;
+  border:1px solid #ccc;
+  background:#FFF1A8;
+  padding:10px;
+  margin-bottom:20px;
+}
+
+#error_explanation h2 {
+  color:#666;
+}
+
+#error_explanation ul li {
+  color:#ff0000;
+}
+
+table.index_list {
+  border-bottom:7px solid #9BAFF1;
+  border-collapse:collapse;
+  border-top:7px solid #9BAFF1;
+  font-size:13px;
+  margin:20px;
+  text-align:center;
+  width:480px;
+}
+
+table.index_list th {
+  background:none repeat scroll 0 0 #E8EDFF;
+  border-left:1px solid #9BAFF1;
+  border-right:1px solid #9BAFF1;
+  color:#003399;
+  font-size:13px;
+  font-weight:bold;
+  padding:8px;
+}
+
+table.index_list td {
+  background:none repeat scroll 0 0 #E8EDFF;
+  border-left:1px solid #AABCFE;
+  border-right:1px solid #AABCFE;
+  color:#666699;
+  padding:8px;
+}
+
+table.index_list td a {
+  font-size:13px;
+  color:#666;
+  text-decoration:none;
+  border-bottom:1px solid #202020;
+}
+
+.actions {
+  width:250px;
+  padding:10px;
+}
+
+.field {
+  padding:5px;
+  font-size:13px;
+}
+
+.field label {
+  float:left;
+  width:50px;
+  font-size:13px;
+  color:#666;
+}
+
+.field input {
+  border:1px solid #ccc;
+}
+
+.field textarea {
+  border:1px solid #ccc;
+}
+
+.actions a {
+  font-size:13px;
+  color:#666;
+  text-decoration:none;
+  font-weight:bold;
+  border-bottom:1px solid #202020;
+  margin-left:10px;
+}
+
+.actions a:hover {
+  background:#eaeaea;
+  border:1px solid #ccc;
 }
